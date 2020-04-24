@@ -31,8 +31,23 @@
   flex-wrap: wrap; }
 
 .item {
+  position: relative;
   padding: 10px;
   background-color: darkblue;
   box-shadow: 10px 10px 10px black;
   color: white;
   margin: 10px; }
+
+.close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+  background-color: darkred;
+  cursor: pointer;
+  transform: translate(50%, -50%); }
